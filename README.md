@@ -14,11 +14,26 @@ El proyecto se enfocará en analizar las siguientes partes:
 4. Descubrimiento de Insights
 5. Recomendaciones y Acciones
 
-## Integrantes del Equipo
-| Nombre de los Integrantes | Papel a Desempeñar en el Equipo   |
-|----------------------------|------------------------------------|
-| Emily Morales              | Backend Developer                  |
-| Jhuomar Barría            | Backend Developer                  |
-| Cesar Prens                | Backend Developer                  |
-| Victoria Vargas            | Designers                          |
-| Ana Zárate                 | Designers                          |
+## Profesionales Encargados del Proyecto
+
+### BACKEND DEVELOPERS:
+- Encargados de la implementación de la lógica de negocio y el análisis de datos utilizando Python y las bibliotecas adecuadas como Pandas, NumPy y scikitlearn.
+- Se centran en la carga de datos, el preprocesamiento, la segmentación de clientes, la predicción de gastos y el descubrimiento de insights.
+- Trabajan en estrecha colaboración para asegurar la coherencia y la calidad del código.
+
+| Nombre de los Integrantes | Profesión                                             |
+|----------------------------|-------------------------------------------------------|
+| Cesar Prens                | Software Developer and Cybersecurity Technician      |
+| Emily Morales              | Computer and Systems Engineering                      |
+| Jhuomar Barría             | Computer and Systems Engineering                      |
+
+### DESIGNERS:
+- Responsables de crear una presentación visualmente atractiva y efectiva para comunicar los hallazgos del análisis de datos.
+- Se encargan del diseño de diapositivas, gráficos, infografías y cualquier otro material visual necesario.
+- Trabajan en estrecha colaboración con el resto del equipo para entender los insights clave y cómo representarlos de manera clara y concisa.
+
+| Nombre de los Integrantes | Profesión                                             |
+|----------------------------|-------------------------------------------------------|
+| Ana Zárate                 | Industrial Engineering and Medicine                    |
+| Victoria Vargas            | Management Information Systems Engineering            |
+
