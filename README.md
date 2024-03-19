@@ -1,9 +1,7 @@
 # CodeCrafters-United
 <p align="center">
-  <img src="https://github.com/Jhuomar-Barria/CodeCrafters-United/assets/124087234/c7b5d998-a90f-4455-b146-24f1be1cc3de" alt="Blue and Purple Illustrative Brain Tech Artificial Intelligence Logo">
+  <img src="https://github.com/Jhuomar-Barria/CodeCrafters-United/assets/124087234/47b596cc-1d13-48e3-a037-25b02a846265" alt="Tarjeta Naranja y Amarillo Pícaro Bonito Horizontal Halloween">
 </p>
-
-
 
 
 # CRM Navigator
