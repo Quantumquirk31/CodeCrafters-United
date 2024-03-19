@@ -1,12 +1,15 @@
 # CodeCrafters-United
-![Blue and Purple Illustrative Brain Tech Artificial Intelligence Logo (3)](https://github.com/Jhuomar-Barria/CodeCrafters-United/assets/124087234/7f6ed79b-17cf-4c9f-839e-fd2fafc0a4a7)
+<p align="center">
+  <img src="https://github.com/Jhuomar-Barria/CodeCrafters-United/assets/124087234/7f6ed79b-17cf-4c9f-839e-fd2fafc0a4a7" alt="Blue and Purple Illustrative Brain Tech Artificial Intelligence Logo (3)">
+</p>
+
 
 # CRM Navigator
 
 ## Descripción del Proyecto
 CRM Navigator es un programa diseñado para optimizar la gestión de clientes en empresas mediante el análisis de datos. Utilizando Python y técnicas de ciencia de datos, el programa recopila información clave sobre los clientes y proporciona insights valiosos para mejorar la satisfacción del cliente y aumentar las ventas.
 
-## Partes Analizadas
+## Desarrollo del proyecto
 El proyecto se enfocará en analizar las siguientes partes:
 1. Entendimiento de los Datos
 2. Análisis de Segmentación
@@ -38,14 +41,3 @@ El proyecto se enfocará en analizar las siguientes partes:
 | Victoria Vargas            | Management Information Systems Engineering            |
 
 
-```python
-def animate_code():
-    for i in range(5):
-        print("Ejecutando paso", i+1)
-        # Inserta aquí el código que deseas animar
-        # Por ejemplo, puedes mostrar el valor de una variable en cada iteración
-        variable = i * 2
-        print("Valor de la variable:", variable)
-        print("\n")
-
-animate_code()
