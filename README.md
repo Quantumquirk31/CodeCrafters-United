@@ -1,8 +1,9 @@
 # CodeCrafters-United
 <p align="center">
-  <img src="![Blue and Purple Illustrative Brain Tech Artificial Intelligence Logo](https://github.com/Jhuomar-Barria/CodeCrafters-United/assets/124087234/f582212e-aa7b-4a40-a44d-9bac81532586)
-">
+  <img src="https://github.com/Jhuomar-Barria/CodeCrafters-United/assets/124087234/c7b5d998-a90f-4455-b146-24f1be1cc3de" alt="Blue and Purple Illustrative Brain Tech Artificial Intelligence Logo">
 </p>
+
+
 
 
 # CRM Navigator
