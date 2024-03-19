@@ -1,4 +1,7 @@
 # CodeCrafters United
+<p align="center">
+  <img src="https://github.com/Jhuomar-Barria/CodeCrafters-United/assets/124087234/47b596cc-1d13-48e3-a037-25b02a846265" alt="Tarjeta Naranja y Amarillo Pícaro Bonito Horizontal Halloween">
+</p>
 
 ## Descripción del Equipo
 CodeCrafters United es un equipo dedicado a la innovación y al desarrollo de soluciones tecnológicas. Nuestro enfoque principal es crear herramientas y aplicaciones que mejoren la eficiencia y la productividad en diversas áreas, utilizando las últimas tecnologías y prácticas de desarrollo.
