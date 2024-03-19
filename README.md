@@ -34,7 +34,7 @@ El proyecto se enfocará en analizar las siguientes partes:
 | Ana Zárate                 | Industrial Engineering and Medicine                    |
 | Victoria Vargas            | Management Information Systems Engineering            |
 
-## Logos
+## Software
 
 <p align="center">
   <img src="https://github.com/Jhuomar-Barria/CodeCrafters-United/assets/124087234/2b8ad26f-e879-4a89-89c6-866868a5c851" width="100" alt="Python Logo">
