@@ -1,9 +1,3 @@
-# CodeCrafters-United
-<p align="center">
-  <img src="https://github.com/Jhuomar-Barria/CodeCrafters-United/assets/124087234/47b596cc-1d13-48e3-a037-25b02a846265" alt="Tarjeta Naranja y Amarillo Pícaro Bonito Horizontal Halloween">
-</p>
-
-
 # CRM Navigator
 
 ## Descripción del Proyecto
@@ -40,4 +34,10 @@ El proyecto se enfocará en analizar las siguientes partes:
 | Ana Zárate                 | Industrial Engineering and Medicine                    |
 | Victoria Vargas            | Management Information Systems Engineering            |
 
+## Logos
+
+![Python Logo](https://github.com/Jhuomar-Barria/CodeCrafters-United/assets/124087234/2b8ad26f-e879-4a89-89c6-866868a5c851)
+![Pandas Logo](https://github.com/Jhuomar-Barria/CodeCrafters-United/assets/124087234/f2dbaa13-c2ae-4b21-9dfb-124b6afebce2)
+![Jupyter Logo](https://github.com/Jhuomar-Barria/CodeCrafters-United/assets/124087234/cabc0f20-804b-44f0-a9a2-358abc81e268)
+![Visual Studio Code Logo](https://github.com/Jhuomar-Barria/CodeCrafters-United/assets/124087234/b3e97c17-640a-452f-a699-f82768d983b6)
 
