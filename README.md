@@ -1,6 +1,7 @@
 # CodeCrafters-United
 <p align="center">
-  <img src="https://github.com/Jhuomar-Barria/CodeCrafters-United/assets/124087234/7f6ed79b-17cf-4c9f-839e-fd2fafc0a4a7" alt="Blue and Purple Illustrative Brain Tech Artificial Intelligence Logo (3)">
+  <img src="![Blue and Purple Illustrative Brain Tech Artificial Intelligence Logo](https://github.com/Jhuomar-Barria/CodeCrafters-United/assets/124087234/f582212e-aa7b-4a40-a44d-9bac81532586)
+">
 </p>
 
 
