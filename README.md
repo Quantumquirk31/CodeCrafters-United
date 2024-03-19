@@ -37,3 +37,15 @@ El proyecto se enfocará en analizar las siguientes partes:
 | Ana Zárate                 | Industrial Engineering and Medicine                    |
 | Victoria Vargas            | Management Information Systems Engineering            |
 
+
+```python
+def animate_code():
+    for i in range(5):
+        print("Ejecutando paso", i+1)
+        # Inserta aquí el código que deseas animar
+        # Por ejemplo, puedes mostrar el valor de una variable en cada iteración
+        variable = i * 2
+        print("Valor de la variable:", variable)
+        print("\n")
+
+animate_code()
