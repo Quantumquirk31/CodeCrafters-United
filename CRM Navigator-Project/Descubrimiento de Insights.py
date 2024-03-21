@@ -42,8 +42,20 @@ plt.xticks(rotation=45)
 plt.tight_layout()
 plt.show()
 
+# Eliminar columnas no numéricas
+data_numeric = data.select_dtypes(include=['int64', 'float64'])
+
+# Calcular matriz de correlación
+correlation_matrix = data_numeric.corr()
+
+# Visualizar matriz de correlación como un mapa de calor
+plt.figure(figsize=(10, 8))
+sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt=".2f")
+plt.title('Matriz de Correlación')
+plt.show()
+
 # Calcular estadísticas descriptivas para las variables numéricas
-stats_descriptivas = data.describe()
+stats_descriptivas = data_numeric.describe()
 
 # Imprimir tabla de estadísticas descriptivas de manera bonita
 styled_stats_descriptivas = stats_descriptivas.style.set_caption("Estadísticas Descriptivas").\
