@@ -1,23 +1,53 @@
 import pandas as pd
-import seaborn as sns
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 # Leer el archivo CSV
-customers_df = pd.read_csv('Customers.csv')
+data = pd.read_csv('Customers.csv')
 
-# Codificar columnas categóricas usando one-hot encoding
-customers_df_encoded = pd.get_dummies(customers_df)
+# Visualizar distribuciones de variables numéricas mediante histogramas
+plt.figure(figsize=(15, 10))
 
-# Eliminar la columna 'CustomerID' si es necesario
-if 'CustomerID' in customers_df_encoded:
-    customers_df_encoded = customers_df_encoded.drop(columns=['CustomerID'])
+plt.subplot(2, 2, 1)
+sns.histplot(data['Age'], kde=True, color='skyblue', bins=20)
+plt.title('Distribución de Edades')
 
-# Calcular la matriz de correlación
-correlation_matrix = customers_df_encoded.corr()
+plt.subplot(2, 2, 2)
+sns.histplot(data['Annual Income ($)'], kde=True, color='salmon', bins=20)
+plt.title('Distribución de Ingresos Anuales')
 
-# Visualizar la matriz de correlación utilizando un mapa de calor
-plt.figure(figsize=(10, 8))
-sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt=".2f", annot_kws={"size": 10})
-plt.title('Matriz de Correlación')
+plt.subplot(2, 2, 3)
+sns.histplot(data['Spending Score (1-100)'], kde=True, color='green', bins=20)
+plt.title('Distribución de Puntuación de Gasto')
+
+plt.subplot(2, 2, 4)
+sns.histplot(data['Work Experience'], kde=True, color='orange', bins=20)
+plt.title('Distribución de Experiencia Laboral')
+
+plt.tight_layout()
 plt.show()
 
+# Visualizar distribución de variables categóricas mediante diagramas de barras
+plt.figure(figsize=(12, 6))
+
+plt.subplot(1, 2, 1)
+sns.countplot(x='Gender', data=data)
+plt.title('Distribución de Género')
+
+plt.subplot(1, 2, 2)
+sns.countplot(x='Profession', data=data)
+plt.title('Distribución de Profesión')
+plt.xticks(rotation=45)
+
+plt.tight_layout()
+plt.show()
+
+# Calcular estadísticas descriptivas para las variables numéricas
+stats_descriptivas = data.describe()
+
+# Imprimir tabla de estadísticas descriptivas de manera bonita
+styled_stats_descriptivas = stats_descriptivas.style.set_caption("Estadísticas Descriptivas").\
+    background_gradient(cmap='coolwarm')
+
+# Mostrar la tabla de estadísticas descriptivas
+display(styled_stats_descriptivas)
