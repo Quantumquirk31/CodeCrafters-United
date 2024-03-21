@@ -1,6 +1,8 @@
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+from tabulate import tabulate
+from IPython.display import display, HTML
 
 # Leer el archivo CSV
 customers = pd.read_csv('Customers.csv')
@@ -8,26 +10,23 @@ customers.head(5)
 
 # Descripción de Datos
 def data_description(customers, head=5):
-    print("-" * 70)
-    print("TAMAÑO:".center(70))
-    print("Filas:", customers.shape[0])
-    print("Columnas:", customers.shape[1])
-    print("-" * 70)
-    print("TIPOS:".center(70))
-    print(customers.dtypes)
-    print("-" * 70)
-    print("HEAD:".center(70))
-    print(customers.head(head))
-    print("-" * 70)
-    print("TAIL:".center(70))
-    print(customers.tail(head))
-    print("-" * 70)
-    print("VALORES NULOS:".center(70))
-    print(customers.isnull().sum())
-    print("-" * 70)
-    print("VALORES DUPLICADOS:".center(70))
-    print(customers.duplicated().sum())
-    print("-" * 70)
+    display(HTML("<h3 style='text-align:center;'>TAMAÑO:</h3>"))
+    display(customers.shape)
+    
+    display(HTML("<h3 style='text-align:center;'>TIPOS:</h3>"))
+    display(customers.dtypes.to_frame().reset_index().rename(columns={'index': 'Columna', 0: 'Tipo'}))
+    
+    display(HTML("<h3 style='text-align:center;'>HEAD:</h3>"))
+    display(customers.head(head))
+    
+    display(HTML("<h3 style='text-align:center;'>TAIL:</h3>"))
+    display(customers.tail(head))
+    
+    display(HTML("<h3 style='text-align:center;'>VALORES NULOS:</h3>"))
+    display(customers.isnull().sum().to_frame().reset_index().rename(columns={'index': 'Columna', 0: 'Valores Nulos'}))
+    
+    display(HTML("<h3 style='text-align:center;'>VALORES DUPLICADOS:</h3>"))
+    display(customers.duplicated().sum())
 
 data_description(customers)
 
@@ -69,3 +68,4 @@ plt.title('Count of Customers by Profession')
 
 plt.tight_layout()
 plt.show()
+
