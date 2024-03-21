@@ -9,7 +9,7 @@ custumers.head(5)
 # Descripción de Datos
 def data_description(customers, head=5):
     print("-" * 70)
-    print("FORMA:".center(70))
+    print("TAMAÑO:".center(70))
     print("Filas:", customers.shape[0])
     print("Columnas:", customers.shape[1])
     print("-" * 70)
@@ -28,11 +28,6 @@ def data_description(customers, head=5):
     print("VALORES DUPLICADOS:".center(70))
     print(customers.duplicated().sum())
     print("-" * 70)
-    print("QUIANTILES:".center(70))
-    numeric_columns = customers.select_dtypes(include=['int', 'float']).columns
-    for col in numeric_columns:
-        print(f"{col}:")
-        print(customers[col].quantile([0, 0.05, 0.50, 0.95, 0.99, 1]))
 
 data_description(customers)
 
