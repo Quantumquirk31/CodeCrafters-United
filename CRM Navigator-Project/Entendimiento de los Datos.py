@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # Leer el archivo CSV
 customers = pd.read_csv('Customers.csv')
-custumers.head(5)
+customers.head(5)
 
 # Descripción de Datos
 def data_description(customers, head=5):
