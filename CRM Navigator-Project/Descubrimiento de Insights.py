@@ -56,10 +56,3 @@ plt.show()
 
 # Calcular estadísticas descriptivas para las variables numéricas
 stats_descriptivas = data_numeric.describe()
-
-# Imprimir tabla de estadísticas descriptivas de manera bonita
-styled_stats_descriptivas = stats_descriptivas.style.set_caption("Estadísticas Descriptivas").\
-    background_gradient(cmap='coolwarm')
-
-# Mostrar la tabla de estadísticas descriptivas
-display(styled_stats_descriptivas)
